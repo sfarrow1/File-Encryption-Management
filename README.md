@@ -1,2 +1,4 @@
 # File-Encryption-Management
-This program allows a user to input a folder/directory on their PC and encrypt or decrypt all contents within. 
+This program allows a user to input a folder/directory on their PC and encrypt or decrypt all contents within.
+
+Using the code provided by the makers of the cryptography package, I was able to create a simple function that encrypts files. As I am interested in a career in cyber security, I decided to expand this code into an automatic folder encrypter program. This would allow a user to keep important files or documents safe. When one runs the program, they are asked if they want to encrpyt or decrypt. If encrypt is chosen, they are prompted to enter a file path, i.e. C:\Users\Sophia\Documents\MyProject that they wish to encrypt. The program will then generate a file key and hide the true contents of the file. If a user wishes to decrypt, they must enter the generated key first to prove they are the authorized user. If the key is wrong, the decryption will not go through. If it is correct, the files will be decrypted and the user will be able to read the contents of the file normally.
